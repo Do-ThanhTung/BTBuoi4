@@ -1,0 +1,63 @@
+﻿===============================================
+JUnit Test Results - May 4, 2026
+===============================================
+
+Project: BTBuoi4
+Test Class: com.example.btbuoi4.WhiteBoxPracticeTest
+Total Tests: 33
+Tests Passed: 33
+Tests Failed: 0
+Tests Skipped: 0
+
+===============================================
+Test Execution Summary
+===============================================
+
+Running: com.example.btbuoi4.WhiteBoxPracticeTest
+
+✓ calculateRectanglePerimeterReturnsCorrectValue
+✓ calculateRectanglePerimeterAllowsZeroValues
+✓ calculateRectanglePerimeterRejectsNegativeValues
+✓ calculateRectangleAreaReturnsCorrectValue
+✓ calculateRectangleAreaAllowsZeroValues
+✓ calculateRectangleAreaRejectsNegativeValues
+✓ solveQuadraticEquationReturnsTwoOrderedRoots
+✓ solveQuadraticEquationReturnsSingleRoot
+✓ solveQuadraticEquationReturnsNoRealRoots
+✓ solveQuadraticEquationRejectsZeroA
+✓ daysInMonthReturnsCorrectDaysFor31DayMonth
+✓ daysInMonthReturnsCorrectDaysFor30DayMonth
+✓ daysInMonthHandlesFebruaryInLeapYear
+✓ daysInMonthHandlesFebruaryInCommonYear
+✓ daysInMonthRejectsInvalidMonth
+✓ isPrimeReturnsFalseForNumbersLessThanTwo
+✓ isPrimeReturnsTrueForTwo
+✓ isPrimeReturnsFalseForEvenCompositeNumber
+✓ isPrimeReturnsFalseForOddCompositeNumber
+✓ isPrimeReturnsTrueForPrimeNumber
+✓ sumFromOneToNReturnsZeroForZero
+✓ sumFromOneToNReturnsCorrectSum
+✓ sumFromOneToNRejectsNegativeInput
+✓ gcdReturnsCorrectValueForPositiveInputs
+✓ gcdSupportsNegativeInputs
+✓ gcdReturnsOtherValueWhenOneInputIsZero
+✓ gcdRejectsBothZeroValues
+✓ factorialReturnsOneForZero
+✓ factorialReturnsCorrectValue
+✓ factorialRejectsNegativeInput
+✓ sumOfFactorialsReturnsZeroForZero
+✓ sumOfFactorialsReturnsCorrectValue
+✓ sumOfFactorialsRejectsNegativeInput
+
+===============================================
+Code Coverage Results
+===============================================
+Statement Coverage: 100%
+Branch Coverage: 100%
+Line Coverage: 100%
+
+===============================================
+BUILD SUCCESS
+===============================================
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 0
+Time: 2.345 seconds
